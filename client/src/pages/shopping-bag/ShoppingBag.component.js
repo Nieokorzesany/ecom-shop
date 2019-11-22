@@ -9,7 +9,6 @@ const ShoppingBag = () => {
       <Header />
       koszyk
       <Link to="/">Homepage</Link>
-      <Link to="/Product">Product</Link>
       <Footer />
     </div>
   );

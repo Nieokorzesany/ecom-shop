@@ -1,6 +1,14 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 .header {
   height: 70px;
   width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
@@ -26,7 +34,7 @@
     .option {
       padding: 10px 15px;
       &:hover {
-        background: grey;
+        background: #e6fafc;
       }
     }
   }

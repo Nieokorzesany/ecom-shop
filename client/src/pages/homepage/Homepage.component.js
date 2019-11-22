@@ -1,18 +1,31 @@
 import React from "react";
 import Footer from "../../layout/Footer";
 import Header from "../../layout/Header";
-import { Link } from "react-router-dom";
+import SHOP_DATA from "../../shopping-data";
+import ProductItemList from "../../components/product-item-list/Product-item-list";
 
-const Homepage = () => {
-  return (
-    <div>
-      <Header />
-      homepage
-      <Link to="/Product">Product</Link>
-      <Link to="/Cart">ShoppingBag</Link>
-      <Footer />
-    </div>
-  );
-};
+import "./homepage.styles.scss";
+
+class Homepage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { data: [...SHOP_DATA] };
+  }
+  render() {
+    return (
+      <div>
+        <Header />
+        <div className="homepage-content">
+          <div className="sort-menu">sort</div>
+          <ProductItemList
+            className="product-list-container"
+            data={this.state.data}
+          />
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+}
 
 export default Homepage;

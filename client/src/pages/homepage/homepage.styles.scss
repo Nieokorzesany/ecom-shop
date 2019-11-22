@@ -1,0 +1,11 @@
+.homepage-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  .sort-menu {
+    min-width: 30%;
+  }
+  .product-list-container {
+    min-width: 70%;
+  }
+}

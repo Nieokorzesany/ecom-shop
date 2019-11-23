@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../../layout/Footer";
-import Header from "../../layout/Header";
 import SHOP_DATA from "../../shopping-data";
 import ProductItemList from "../../components/product-item-list/Product-item-list";
 
@@ -14,7 +12,6 @@ class Homepage extends React.Component {
   render() {
     return (
       <div>
-        <Header />
         <div className="homepage-content">
           <div className="sort-menu">sort</div>
           <ProductItemList
@@ -22,7 +19,6 @@ class Homepage extends React.Component {
             data={this.state.data}
           />
         </div>
-        <Footer />
       </div>
     );
   }

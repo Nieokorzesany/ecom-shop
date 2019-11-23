@@ -17,6 +17,7 @@ body {
     height: 100%;
     width: 150px;
     padding: 25px;
+    box-sizing: content-box;
     .logo {
       font-size: 23px;
       font-weight: bolder;

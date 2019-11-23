@@ -4,10 +4,10 @@ import ProductItem from "../product-item/Product-item.component";
 import "./Product-item-list.styles.scss";
 
 const ProductItemList = ({ data }) => {
-  console.log(data);
   const shoppingList = data.map(el => (
     <ProductItem
       key={el.id}
+      id={el.id}
       image={el.imageUrl}
       name={el.name}
       price={el.price}

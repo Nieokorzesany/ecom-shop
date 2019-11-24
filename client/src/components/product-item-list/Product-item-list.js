@@ -1,10 +1,11 @@
 import React from "react";
 import ProductItem from "../product-item/Product-item.component";
+import { connect } from "react-redux";
 
 import "./Product-item-list.styles.scss";
 
-const ProductItemList = ({ data }) => {
-  const shoppingList = data.map(el => (
+const ProductItemList = props => {
+  const shoppingList = props.data.map(el => (
     <ProductItem
       key={el.id}
       id={el.id}
@@ -16,4 +17,10 @@ const ProductItemList = ({ data }) => {
   return <div className="product-list">{shoppingList}</div>;
 };
 
-export default ProductItemList;
+function mapStateToProps({ data }) {
+  return {
+    data: data.SHOP_DATA
+  };
+}
+
+export default connect(mapStateToProps)(ProductItemList);

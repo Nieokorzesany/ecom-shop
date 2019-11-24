@@ -4,8 +4,8 @@ import { connect } from "react-redux";
 
 import "./Product-item-list.styles.scss";
 
-const ProductItemList = props => {
-  const shoppingList = props.data.map(el => (
+const ProductItemList = ({ data }) => {
+  const shoppingList = data.map(el => (
     <ProductItem
       key={el.id}
       id={el.id}

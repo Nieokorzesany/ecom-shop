@@ -1,9 +1,17 @@
 import React from "react";
 import ProductDetails from "../../components/product-details/Product-details.component";
+import { connect } from "react-redux";
 
-const Product = props => {
-  console.log(props);
-  return <ProductDetails> {props.match.params.id}</ProductDetails>;
+const Product = ({ data }) => {
+  return <ProductDetails details={data} />;
 };
 
-export default Product;
+function mapStateToProps({ data }, ownProps) {
+  return {
+    data: data.SHOP_DATA.find(
+      product => product.id === Number(ownProps.match.params.id)
+    )
+  };
+}
+
+export default connect(mapStateToProps)(Product);

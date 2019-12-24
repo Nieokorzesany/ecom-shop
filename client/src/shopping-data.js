@@ -5,7 +5,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
     price: 25,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 2,
@@ -13,7 +15,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
     price: 18,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 3,
@@ -21,7 +25,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
     price: 35,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 4,
@@ -29,7 +35,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
     price: 25,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 5,
@@ -37,7 +45,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
     price: 18,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 6,
@@ -45,7 +55,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
     price: 14,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 7,
@@ -53,7 +65,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
     price: 18,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 8,
@@ -61,7 +75,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
     price: 14,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 9,
@@ -69,7 +85,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
     price: 16,
     category: "hats",
-    quantity: 100
+    quantity: 100,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 10,
@@ -77,7 +95,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
     price: 220,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 11,
@@ -85,7 +105,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
     price: 280,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 12,
@@ -93,7 +115,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
     price: 110,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 13,
@@ -101,7 +125,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
     price: 160,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 14,
@@ -109,7 +135,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
     price: 160,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 15,
@@ -117,7 +145,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
     price: 160,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 16,
@@ -125,7 +155,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
     price: 190,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 17,
@@ -133,7 +165,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
     price: 200,
     category: "sneakers",
-    quantity: 50
+    quantity: 50,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 18,
@@ -141,7 +175,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
     price: 125,
     category: "jackets",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 19,
@@ -149,7 +185,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
     price: 90,
     category: "jackets",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 20,
@@ -157,7 +195,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
     price: 90,
     category: "jackets",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 21,
@@ -165,7 +205,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
     price: 165,
     category: "jackets",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 22,
@@ -173,7 +215,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
     price: 185,
     category: "jackets",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 23,
@@ -181,7 +225,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
     price: 25,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 24,
@@ -189,7 +235,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
     price: 20,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 25,
@@ -197,7 +245,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
     price: 80,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 26,
@@ -205,7 +255,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
     price: 80,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 27,
@@ -213,7 +265,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
     price: 45,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 28,
@@ -221,7 +275,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
     price: 135,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 29,
@@ -229,7 +285,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
     price: 20,
     category: "womens",
-    quantity: 75
+    quantity: 75,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 30,
@@ -237,7 +295,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
     price: 325,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 31,
@@ -245,7 +305,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
     price: 20,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 32,
@@ -253,7 +315,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
     price: 25,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 33,
@@ -261,7 +325,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
     price: 25,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 34,
@@ -269,7 +335,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
     price: 40,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   },
   {
     id: 35,
@@ -277,7 +345,9 @@ const SHOP_DATA = [
     imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
     price: 25,
     category: "mens",
-    quantity: 120
+    quantity: 120,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus."
   }
 ];
 

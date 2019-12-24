@@ -1,7 +1,17 @@
+body {
+  padding: 20px 40px;
+}
+
 a {
   text-decoration: none;
 }
 
 * {
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
   box-sizing: border-box;
 }

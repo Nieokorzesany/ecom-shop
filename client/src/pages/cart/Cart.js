@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ShoppingBag = () => {
+const Cart = () => {
   return (
     <div>
       koszyk
@@ -10,4 +10,4 @@ const ShoppingBag = () => {
   );
 };
 
-export default ShoppingBag;
+export default Cart;

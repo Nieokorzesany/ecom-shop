@@ -1,14 +1,19 @@
 import React from "react";
 
-import { connect } from "react-redux";
 import "./CartDropdownItem.styles.scss";
 
-const CartDropdownItem = ({ data, id }) => {
-  return <p>{}</p>;
-};
+const CartDropdownItem = ({
+  item: { imageUrl, price, name, listQuantity }
+}) => (
+  <div className="cart-item">
+    <img src={imageUrl} alt="item" />
+    <div className="item-details">
+      <span className="name">{name}</span>
+      <span className="price">
+        {listQuantity} x ${price * listQuantity}
+      </span>
+    </div>
+  </div>
+);
 
-const mapStateToProps = ({ data }) => ({
-  data: data.SHOP_DATA
-});
-
-export default connect(mapStateToProps)(CartDropdownItem);
+export default CartDropdownItem;

@@ -5,7 +5,7 @@ import { addItem } from "../../redux/cart/cart.actions";
 import CustomButton from "../custom-button/CustomButton.component";
 import "./Product-details.scss";
 
-const ProductDetails = ({ details, addItem }) => {
+const ProductDetails = ({ details, addItem, data }) => {
   return (
     <div className="product-details">
       <div className="product-details-img">
@@ -16,16 +16,26 @@ const ProductDetails = ({ details, addItem }) => {
         <h2 className="product-details-price">Price: $ {details.price}</h2>
         <h3>Quantity: {details.quantity}</h3>
         <div className="product-details-description">{details.description}</div>
-        <CustomButton onClick={() => addItem(details)}>
+        <CustomButton
+          onClick={() => addItem(details)}
+          disabled={
+            data.find(item => item.id === details.id).quantity > 0
+              ? false
+              : true
+          }
+        >
           Add to Cart
         </CustomButton>
       </div>
     </div>
   );
 };
+const mapStateToProps = ({ data }) => ({
+  data: data.SHOP_DATA
+});
 
 const mapDispatchToProps = dispatch => ({
   addItem: item => dispatch(addItem(item))
 });
 
-export default connect(null, mapDispatchToProps)(ProductDetails);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductDetails);

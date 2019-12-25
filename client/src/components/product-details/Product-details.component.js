@@ -1,9 +1,11 @@
 import React from "react";
 
+import { connect } from "react-redux";
+import { addItem } from "../../redux/cart/cart.actions";
 import CustomButton from "../custom-button/CustomButton.component";
 import "./Product-details.scss";
 
-const ProductDetails = ({ details }) => {
+const ProductDetails = ({ details, addItem }) => {
   return (
     <div className="product-details">
       <div className="product-details-img">
@@ -14,10 +16,16 @@ const ProductDetails = ({ details }) => {
         <h2 className="product-details-price">Price: $ {details.price}</h2>
         <h3>Quantity: {details.quantity}</h3>
         <div className="product-details-description">{details.description}</div>
-        <CustomButton>Add to Cart</CustomButton>
+        <CustomButton onClick={() => addItem(details)}>
+          Add to Cart
+        </CustomButton>
       </div>
     </div>
   );
 };
 
-export default ProductDetails;
+const mapDispatchToProps = dispatch => ({
+  addItem: item => dispatch(addItem(item))
+});
+
+export default connect(null, mapDispatchToProps)(ProductDetails);

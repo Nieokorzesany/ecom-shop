@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import CartIcon from "../components/cart-icon/cart-icon.component";
-import CardDropdown from "../components/cart-dropdown/cart-dropdown.component";
 
 import "./Header.styles.scss";
 import { auth } from "../firebase/firebase.utils";

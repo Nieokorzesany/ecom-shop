@@ -10,8 +10,10 @@ const CustomButton = ({
 }) => {
   return (
     <button
-      className={`${isGoogleSignIn ? "google-sign-in" : ""} custom-button`}
-      disabled={disabled ? true : false}
+      className={`${isGoogleSignIn ? "google-sign-in" : ""} custom-button ${
+        disabled ? "disabled" : ""
+      }`}
+      disabled={disabled}
       {...otherProps}
     >
       {children}

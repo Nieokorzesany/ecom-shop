@@ -28,3 +28,11 @@
     }
   }
 }
+.disabled {
+  background-color: grey;
+  &:hover {
+    background-color: grey;
+    border: none;
+    color: white;
+  }
+}

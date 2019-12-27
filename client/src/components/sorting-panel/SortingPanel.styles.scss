@@ -1,0 +1,21 @@
+.sort-section {
+  min-width: 20%;
+  position: relative;
+  margin-top: 40px;
+  height: fit-content;
+  padding: 20px 0;
+  border-bottom: lightgray 1px solid;
+  .sort-title {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .option {
+    margin: 9px 0;
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+    cursor: pointer;
+  }
+}

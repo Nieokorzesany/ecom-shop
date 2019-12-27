@@ -1,11 +1,9 @@
 .homepage-content {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
-  .sort-menu {
-    min-width: 30%;
-  }
   .product-list-container {
-    min-width: 70%;
+    width: 70%;
   }
 }

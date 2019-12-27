@@ -2,10 +2,11 @@ import React from "react";
 
 import { connect } from "react-redux";
 import { addItem } from "../../redux/cart/cart.actions";
+import { adjustQuantity } from "../../redux/data/data.actions";
 import CustomButton from "../custom-button/CustomButton.component";
 import "./Product-details.scss";
 
-const ProductDetails = ({ details, addItem, data }) => {
+const ProductDetails = ({ details, addItem, data, adjustQuantity }) => {
   return (
     <div className="product-details">
       <div className="product-details-img">
@@ -17,7 +18,10 @@ const ProductDetails = ({ details, addItem, data }) => {
         <h3>Quantity: {details.quantity}</h3>
         <div className="product-details-description">{details.description}</div>
         <CustomButton
-          onClick={() => addItem(details)}
+          onClick={() => {
+            addItem(details);
+            adjustQuantity(details);
+          }}
           disabled={
             data.find(item => item.id === details.id).quantity > 0
               ? false
@@ -35,7 +39,8 @@ const mapStateToProps = ({ data }) => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  addItem: item => dispatch(addItem(item))
+  addItem: item => dispatch(addItem(item)),
+  adjustQuantity: item => dispatch(adjustQuantity(item))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ProductDetails);
